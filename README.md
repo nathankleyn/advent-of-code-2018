@@ -1,4 +1,4 @@
-# Advent Of Code 2018 🎅 🎄
+# Advent Of Code 2018 🎅 🎄 ☃
 
 My attempts at the Advent Of Code 2018 exercises! Solutions are in Rust this year, with the intention to rewrite in other languages if I get time.
 
