@@ -22,7 +22,7 @@ fn day_1_part_2(input: &str) -> i32 {
 }
 
 fn day_1_parse(input: &str) -> Vec<i32> {
-  input.split('\n').filter(|x| !x.is_empty()).map(|x| {
+  input.lines().filter(|x| !x.is_empty()).map(|x| {
     x.parse::<i32>().expect(&format!("Could not parse '{}' as i32.", x))
   }).collect()
 }
